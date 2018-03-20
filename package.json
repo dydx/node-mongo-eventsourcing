@@ -1,0 +1,19 @@
+{
+  "name": "@dydx/express-es",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Josh Sandlin <josh.sandlin@turner.com> (http://adultswim.com)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11",
+    "node-uuid": "^1.4.8"
+  }
+}
