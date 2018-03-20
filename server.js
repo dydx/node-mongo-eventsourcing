@@ -1,6 +1,9 @@
 const app = require('./src/app');
 const mongoose = require('mongoose');
+const config = require('./config');
 
-mongoose.connect('mongodb://mongo:27017/test');
+const mongoURL = config[process.env.NODE_ENV].mongo;
+
+mongoose.connect(mongoURL);
 
 app.listen(3000);

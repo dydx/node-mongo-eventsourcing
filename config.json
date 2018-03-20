@@ -1,0 +1,8 @@
+{
+  "local": {
+    "mongo": "mongodb://localhost:27017/test"
+  },
+  "development": {
+    "mongo": "mongodb://mongo:27017/test"
+  }
+}
